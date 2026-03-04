@@ -1,0 +1,90 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<PLCConfig>
+	<Connection>
+		<IP>192.168.0.1</IP>
+		<Rack>0</Rack>
+		<Slot>1</Slot>
+		<DB_Number>1</DB_Number>
+	</Connection>
+	
+	<variablelist>
+		<readbits>
+			<Var name = "i_bConnectStatus" byte = "0" bit = "0"/>
+			<Var name = "i_bJOgFw01" byte = "0" bit = "1"/>
+			<Var name = "i_bJOgBw01" byte = "0" bit = "2"/>
+			<Var name = "i_bJOgFw02" byte = "0" bit = "3"/>
+			<Var name = "i_bJOgBw02" byte = "0" bit = "4"/>
+			<Var name = "i_bJOgFw03" byte = "0" bit = "5"/>
+			<Var name = "i_bJOgBw03" byte = "0" bit = "6"/>
+			<Var name = "i_bSpare07" byte = "0" bit = "7"/>
+			<Var name = "i_bSpare10" byte = "1" bit = "0"/>
+			<Var name = "i_bSpare11" byte = "1" bit = "1"/>
+			<Var name = "i_bSpare12" byte = "1" bit = "2"/>
+			<Var name = "i_bSpare13" byte = "1" bit = "3"/>
+			<Var name = "i_bSpare14" byte = "1" bit = "4"/>
+			<Var name = "i_bSpare15" byte = "1" bit = "5"/>
+			<Var name = "i_bSpare16" byte = "1" bit = "6"/>
+			<Var name = "i_bSpare17" byte = "1" bit = "7"/>
+			<Var name = "i_bSpare20" byte = "2" bit = "0"/>
+			<Var name = "i_bSpare21" byte = "2" bit = "1"/>
+			<Var name = "i_bSpare22" byte = "2" bit = "2"/>
+			<Var name = "i_bSpare23" byte = "2" bit = "3"/>
+			<Var name = "i_bSpare24" byte = "2" bit = "4"/>
+			<Var name = "i_bSpare25" byte = "2" bit = "5"/>
+			<Var name = "i_bSpare26" byte = "2" bit = "6"/>
+			<Var name = "i_bSpare27" byte = "2" bit = "7"/>
+		</readbits>
+		<writebits>
+			<Var name = "bConnectStatus" byte = "0" bit = "0"/>
+			<Var name = "o_bJOgFw01" byte = "3" bit = "1"/>
+			<Var name = "o_bJOgBw01" byte = "3" bit = "2"/>
+			<Var name = "o_bJOgFw02" byte = "3" bit = "3"/>
+			<Var name = "o_bJOgBw02" byte = "3" bit = "4"/>
+			<Var name = "o_bJOgFw03" byte = "3" bit = "5"/>
+			<Var name = "o_bJOgBw03" byte = "3" bit = "6"/>
+			<Var name = "o_bSpare07" byte = "3" bit = "7"/>
+			<Var name = "o_bSpare10" byte = "4" bit = "0"/>
+			<Var name = "o_bSpare11" byte = "4" bit = "1"/>
+			<Var name = "o_bSpare12" byte = "4" bit = "2"/>
+			<Var name = "o_bSpare13" byte = "4" bit = "3"/>
+			<Var name = "o_bSpare14" byte = "4" bit = "4"/>
+			<Var name = "o_bSpare15" byte = "4" bit = "5"/>
+			<Var name = "o_bSpare16" byte = "4" bit = "6"/>
+			<Var name = "o_bSpare17" byte = "4" bit = "7"/>
+			<Var name = "o_bSpare20" byte = "5" bit = "0"/>
+			<Var name = "o_bSpare21" byte = "5" bit = "1"/>
+			<Var name = "o_bSpare22" byte = "5" bit = "2"/>
+			<Var name = "o_bSpare23" byte = "5" bit = "3"/>
+			<Var name = "o_bSpare24" byte = "5" bit = "4"/>
+			<Var name = "o_bSpare25" byte = "5" bit = "5"/>
+			<Var name = "o_bSpare26" byte = "5" bit = "6"/>
+			<Var name = "o_bSpare27" byte = "5" bit = "7"/>
+		
+		</writebits>
+		<ReadInts>
+			<Var name = "i_o_iSpare01" byte = "10"/>
+			<Var name = "i_o_iSpare02" byte = "12"/>
+			<Var name = "i_o_iSpare03" byte = "14"/>
+			<Var name = "i_o_iSpare04" byte = "16"/>
+			<Var name = "i_o_iSpare05" byte = "18"/>
+			<Var name = "i_o_iSpare06" byte = "20"/>
+			<Var name = "i_o_iSpare07" byte = "22"/>
+			<Var name = "i_o_iSpare08" byte = "24"/>
+			<Var name = "i_o_iSpare09" byte = "26"/>
+			<Var name = "i_o_iSpare10" byte = "28"/>
+		</ReadInts>
+		<WriteInts>
+			<Var name = "o_iSpare01" byte = "30"/>
+			<Var name = "o_iSpare02" byte = "32"/>
+			<Var name = "o_iSpare03" byte = "34"/>
+			<Var name = "o_iSpare04" byte = "36"/>
+			<Var name = "o_iSpare05" byte = "38"/>
+			<Var name = "o_iSpare06" byte = "40"/>
+			<Var name = "o_iSpare07" byte = "42"/>
+			<Var name = "o_iSpare08" byte = "44"/>
+			<Var name = "o_iSpare09" byte = "46"/>
+			<Var name = "o_iSpare10" byte = "48"/>
+		</WriteInts>
+	</variablelist>
+</PLCConfig>
+			

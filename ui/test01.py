@@ -1,0 +1,155 @@
+# -*- coding: utf-8 -*-
+
+################################################################################
+## Form generated from reading UI file 'test01.ui'
+##
+## Created by: Qt User Interface Compiler version 6.10.2
+##
+## WARNING! All changes made in this file will be lost when recompiling UI file!
+################################################################################
+
+from PySide6.QtCore import (QCoreApplication, QDate, QDateTime, QLocale,
+    QMetaObject, QObject, QPoint, QRect,
+    QSize, QTime, QUrl, Qt)
+from PySide6.QtGui import (QBrush, QColor, QConicalGradient, QCursor,
+    QFont, QFontDatabase, QGradient, QIcon,
+    QImage, QKeySequence, QLinearGradient, QPainter,
+    QPalette, QPixmap, QRadialGradient, QTransform)
+from PySide6.QtWidgets import (QApplication, QFrame, QLabel, QLineEdit,
+    QMainWindow, QMenuBar, QPushButton, QSizePolicy,
+    QStatusBar, QTabWidget, QWidget)
+
+class Ui_MainWindow(object):
+    def setupUi(self, MainWindow):
+        if not MainWindow.objectName():
+            MainWindow.setObjectName(u"MainWindow")
+        MainWindow.resize(640, 480)
+        self.centralwidget = QWidget(MainWindow)
+        self.centralwidget.setObjectName(u"centralwidget")
+        self.tabScreen = QTabWidget(self.centralwidget)
+        self.tabScreen.setObjectName(u"tabScreen")
+        self.tabScreen.setGeometry(QRect(0, 0, 631, 421))
+        self.Main = QWidget()
+        self.Main.setObjectName(u"Main")
+        self.Main_btnConnectPLC = QPushButton(self.Main)
+        self.Main_btnConnectPLC.setObjectName(u"Main_btnConnectPLC")
+        self.Main_btnConnectPLC.setGeometry(QRect(270, 160, 81, 26))
+        self.tabScreen.addTab(self.Main, "")
+        self.Setting = QWidget()
+        self.Setting.setObjectName(u"Setting")
+        self.frame = QFrame(self.Setting)
+        self.frame.setObjectName(u"frame")
+        self.frame.setGeometry(QRect(0, 0, 241, 81))
+        self.frame.setFrameShape(QFrame.Shape.Box)
+        self.frame.setFrameShadow(QFrame.Shadow.Raised)
+        self.set_txbSetIPPLC01 = QLineEdit(self.frame)
+        self.set_txbSetIPPLC01.setObjectName(u"set_txbSetIPPLC01")
+        self.set_txbSetIPPLC01.setGeometry(QRect(70, 10, 41, 26))
+        self.set_btnDisconnectPLC = QPushButton(self.frame)
+        self.set_btnDisconnectPLC.setObjectName(u"set_btnDisconnectPLC")
+        self.set_btnDisconnectPLC.setGeometry(QRect(150, 40, 81, 26))
+        self.set_btnConnectPLC = QPushButton(self.frame)
+        self.set_btnConnectPLC.setObjectName(u"set_btnConnectPLC")
+        self.set_btnConnectPLC.setGeometry(QRect(70, 40, 81, 26))
+        self.set_lblIpPlc = QLabel(self.frame)
+        self.set_lblIpPlc.setObjectName(u"set_lblIpPlc")
+        self.set_lblIpPlc.setGeometry(QRect(20, 10, 48, 31))
+        self.set_lblConnectStatus = QLabel(self.frame)
+        self.set_lblConnectStatus.setObjectName(u"set_lblConnectStatus")
+        self.set_lblConnectStatus.setGeometry(QRect(20, 45, 48, 21))
+        self.set_txbSetIPPLC02 = QLineEdit(self.frame)
+        self.set_txbSetIPPLC02.setObjectName(u"set_txbSetIPPLC02")
+        self.set_txbSetIPPLC02.setGeometry(QRect(110, 10, 41, 26))
+        self.set_txbSetIPPLC03 = QLineEdit(self.frame)
+        self.set_txbSetIPPLC03.setObjectName(u"set_txbSetIPPLC03")
+        self.set_txbSetIPPLC03.setGeometry(QRect(150, 10, 41, 26))
+        self.set_txbSetIPPLC04 = QLineEdit(self.frame)
+        self.set_txbSetIPPLC04.setObjectName(u"set_txbSetIPPLC04")
+        self.set_txbSetIPPLC04.setGeometry(QRect(190, 10, 41, 26))
+        self.frame_2 = QFrame(self.Setting)
+        self.frame_2.setObjectName(u"frame_2")
+        self.frame_2.setGeometry(QRect(0, 90, 241, 181))
+        self.frame_2.setFrameShape(QFrame.Shape.Box)
+        self.frame_2.setFrameShadow(QFrame.Shadow.Raised)
+        self.set_btnJogBw01 = QPushButton(self.frame_2)
+        self.set_btnJogBw01.setObjectName(u"set_btnJogBw01")
+        self.set_btnJogBw01.setGeometry(QRect(150, 40, 81, 26))
+        self.set_btnJogFw01 = QPushButton(self.frame_2)
+        self.set_btnJogFw01.setObjectName(u"set_btnJogFw01")
+        self.set_btnJogFw01.setGeometry(QRect(60, 40, 81, 26))
+        self.set_btnJogFw01.setLayoutDirection(Qt.LayoutDirection.LeftToRight)
+        self.set_btnJogFw02 = QPushButton(self.frame_2)
+        self.set_btnJogFw02.setObjectName(u"set_btnJogFw02")
+        self.set_btnJogFw02.setGeometry(QRect(60, 90, 81, 26))
+        self.set_btnJogFw02.setLayoutDirection(Qt.LayoutDirection.LeftToRight)
+        self.set_btnJogBw02 = QPushButton(self.frame_2)
+        self.set_btnJogBw02.setObjectName(u"set_btnJogBw02")
+        self.set_btnJogBw02.setGeometry(QRect(150, 90, 81, 26))
+        self.set_btnJogFw03 = QPushButton(self.frame_2)
+        self.set_btnJogFw03.setObjectName(u"set_btnJogFw03")
+        self.set_btnJogFw03.setGeometry(QRect(60, 140, 81, 26))
+        self.set_btnJogFw03.setLayoutDirection(Qt.LayoutDirection.LeftToRight)
+        self.set_btnJogBw03 = QPushButton(self.frame_2)
+        self.set_btnJogBw03.setObjectName(u"set_btnJogBw03")
+        self.set_btnJogBw03.setGeometry(QRect(150, 140, 81, 26))
+        self.set_lblAngle01 = QLabel(self.frame_2)
+        self.set_lblAngle01.setObjectName(u"set_lblAngle01")
+        self.set_lblAngle01.setGeometry(QRect(10, 40, 48, 31))
+        self.set_lblAngle01.setFrameShape(QFrame.Shape.Box)
+        self.set_lblAngle01.setWordWrap(False)
+        self.set_lblAngle01_2 = QLabel(self.frame_2)
+        self.set_lblAngle01_2.setObjectName(u"set_lblAngle01_2")
+        self.set_lblAngle01_2.setGeometry(QRect(10, 90, 48, 31))
+        self.set_lblAngle01_2.setFrameShape(QFrame.Shape.Box)
+        self.set_lblAngle01_2.setWordWrap(True)
+        self.set_lblAngle01_3 = QLabel(self.frame_2)
+        self.set_lblAngle01_3.setObjectName(u"set_lblAngle01_3")
+        self.set_lblAngle01_3.setGeometry(QRect(10, 140, 48, 31))
+        self.set_lblAngle01_3.setFrameShape(QFrame.Shape.Box)
+        self.set_lblAngle01_3.setWordWrap(True)
+        self.set_lbJogMode = QLabel(self.frame_2)
+        self.set_lbJogMode.setObjectName(u"set_lbJogMode")
+        self.set_lbJogMode.setGeometry(QRect(80, 0, 81, 31))
+        self.set_lbJogMode.setFrameShape(QFrame.Shape.NoFrame)
+        self.set_lbJogMode.setAlignment(Qt.AlignmentFlag.AlignCenter)
+        self.set_lbJogMode.setWordWrap(False)
+        self.set_lbJogMode.setIndent(0)
+        self.tabScreen.addTab(self.Setting, "")
+        MainWindow.setCentralWidget(self.centralwidget)
+        self.menubar = QMenuBar(MainWindow)
+        self.menubar.setObjectName(u"menubar")
+        self.menubar.setGeometry(QRect(0, 0, 640, 33))
+        MainWindow.setMenuBar(self.menubar)
+        self.statusbar = QStatusBar(MainWindow)
+        self.statusbar.setObjectName(u"statusbar")
+        MainWindow.setStatusBar(self.statusbar)
+
+        self.retranslateUi(MainWindow)
+
+        self.tabScreen.setCurrentIndex(1)
+
+
+        QMetaObject.connectSlotsByName(MainWindow)
+    # setupUi
+
+    def retranslateUi(self, MainWindow):
+        MainWindow.setWindowTitle(QCoreApplication.translate("MainWindow", u"MainWindow", None))
+        self.Main_btnConnectPLC.setText(QCoreApplication.translate("MainWindow", u"PushButton", None))
+        self.tabScreen.setTabText(self.tabScreen.indexOf(self.Main), QCoreApplication.translate("MainWindow", u"Main", None))
+        self.set_btnDisconnectPLC.setText(QCoreApplication.translate("MainWindow", u"Disconnect", None))
+        self.set_btnConnectPLC.setText(QCoreApplication.translate("MainWindow", u"Connect", None))
+        self.set_lblIpPlc.setText(QCoreApplication.translate("MainWindow", u"IP PLC:", None))
+        self.set_lblConnectStatus.setText(QCoreApplication.translate("MainWindow", u"Status ", None))
+        self.set_btnJogBw01.setText(QCoreApplication.translate("MainWindow", u"JOG -", None))
+        self.set_btnJogFw01.setText(QCoreApplication.translate("MainWindow", u"JOG +", None))
+        self.set_btnJogFw02.setText(QCoreApplication.translate("MainWindow", u"JOG +", None))
+        self.set_btnJogBw02.setText(QCoreApplication.translate("MainWindow", u"JOG -", None))
+        self.set_btnJogFw03.setText(QCoreApplication.translate("MainWindow", u"JOG +", None))
+        self.set_btnJogBw03.setText(QCoreApplication.translate("MainWindow", u"JOG -", None))
+        self.set_lblAngle01.setText(QCoreApplication.translate("MainWindow", u"Angle01", None))
+        self.set_lblAngle01_2.setText(QCoreApplication.translate("MainWindow", u"Angle02", None))
+        self.set_lblAngle01_3.setText(QCoreApplication.translate("MainWindow", u"Angle03", None))
+        self.set_lbJogMode.setText(QCoreApplication.translate("MainWindow", u"Manual JOG", None))
+        self.tabScreen.setTabText(self.tabScreen.indexOf(self.Setting), QCoreApplication.translate("MainWindow", u"Setting", None))
+    # retranslateUi
+
